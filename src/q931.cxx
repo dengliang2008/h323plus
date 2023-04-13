@@ -648,7 +648,7 @@ void Q931::SetBearerCapabilities(InformationTransferCapability capability,
           data[1] = 0x97;
           break;
         case 32 :
-          data[1] = 0x98;
+          data[1] = 0x18;
           data[2] = 0xA0;
           size = 4;
           break;
